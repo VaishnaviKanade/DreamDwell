@@ -32,7 +32,7 @@ const Signin = () => {
         dispatch(signInFailure(data));
         return;
       }
-      dispatch(signInSuccess(data.message));
+      dispatch(signInSuccess(data));
       navigate('/');
     } catch (error) {
       dispatch(signInFailure(error.message));
