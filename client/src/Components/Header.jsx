@@ -27,7 +27,8 @@ export default function Header() {
 
          <Link to='/profile'>
          {currentUser ? (
-           <img className='rounded-full h-7 w-7 object-cover' src={currentUser.avatar} alt='profile' />
+          //  <img className='rounded-full h-7 w-7 object-cover' src={currentUser.avatar} alt='profile' />
+          <img className='rounded-full h-7 w-7 object-cover' src="https://th.bing.com/th/id/OIP.m_E2GiWXc8IGEeYAbypLgAHaHa?rs=1&pid=ImgDetMain" alt='profile' />
            
          ): (
             <li className="text-slate-700 hover:underline">Sign in</li>
